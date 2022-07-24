@@ -17,6 +17,7 @@ namespace Task
             Radians radians = new Radians(gradus, minute, second);
             double ResultRadians = radians.ToRadians();
             Console.WriteLine("Значение в радианах = {0}", ResultRadians);
+
             Console.ReadKey();
         }
     }
