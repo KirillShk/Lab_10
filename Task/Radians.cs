@@ -23,7 +23,7 @@ namespace Task
                 }
                 else if (value > 60)
                 {
-                   gradusCl += value / 60;
+                    gradusCl += value / 60;
                     minuteCl = value % 60;
                 }
                 else
@@ -62,9 +62,8 @@ namespace Task
 
         public double ToRadians()
         {
-            return (gradusCl + (double)minuteCl/60 + (double)secondCl / 3600) *Math.PI/180;
+            return (gradusCl + (double)minuteCl / 60 + (double)secondCl / 3600) * Math.PI / 180;
         }
-       
+
     }
 }
- 
